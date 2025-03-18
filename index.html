@@ -13,7 +13,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #0074B7;
+            background-color: #0074B7; /* Azul */
             color: white;
             padding: 20px;
             text-align: center;
@@ -37,12 +37,21 @@
             padding: 20px;
             max-width: 1200px;
             margin: 0 auto;
+            background-color: #ffffff; /* Blanco de fondo */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
         }
         h1 {
             color: #333;
         }
+        h2 {
+            color: #0074B7; /* Azul del header */
+        }
         section {
             margin-bottom: 40px;
+            padding: 20px;
+            background-color: #e8f4fd; /* Fondo azul claro para las secciones */
+            border-radius: 8px; /* Bordes redondeados en las secciones */
         }
         footer {
             background-color: #333;
@@ -52,6 +61,25 @@
             position: fixed;
             width: 100%;
             bottom: 0;
+        }
+        a {
+            color: #0074B7; /* Color de los enlaces */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-button {
+            background-color: #0074B7; /* Azul para los botones del nav */
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .nav-button:hover {
+            background-color: #005f8a; /* Azul más oscuro en hover */
         }
     </style>
 </head>
@@ -87,9 +115,11 @@
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Si tienes alguna duda o necesitas más información, no dudes en comunicarte con nosotros. Estamos para ayudarte.</p>
-            <p>Correo electrónico: <a href="blitoavalos23@gmail.com">atencion@anses.gob.ar</a></p>
+            <p>Correo electrónico: <a href="mailto:atencion@anses.gob.ar">atencion@anses.gob.ar</a></p>
             <p>Teléfono: +54 11 3370-2973</p>
         </section>
+
+        <a href="#quienes-somos" class="nav-button">Volver al inicio</a>
     </div>
 
     <footer>
